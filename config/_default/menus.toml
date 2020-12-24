@@ -4,29 +4,37 @@
 #   The weight parameter defines the order that the links will appear in.
 
 [[main]]
-  name = "Home"
-  url = "#about"
-  weight = 10
+  name = "Teaching"  # A link title for your page.
+  url = "classes/teaching"  # The URL of your page.
+  weight = 50  # The position of your page in the menu.
 
 [[main]]
-  name = "Posts"
-  url = "#posts"
-  weight = 20
+  name = "Conference Publications"
+  url = "#publications"
+  weight = 56
+
+[[main]]
+  name = "Journal Publications"
+  url = "#publications_j"
+  weight = 55
 
 [[main]]
   name = "Projects"
-  url = "#projects"
-  weight = 30
-
-[[main]]
-  name = "Publications"
-  url = "#featured"
-  weight = 40
+  url = "#slider"
+  weight = 60
 
 [[main]]
   name = "Contact"
   url = "#contact"
-  weight = 60
+  weight = 61
+
+# Link to a PDF of your resume/CV from the menu.
+# To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
+[[main]]
+  name = "CV"
+  url = "media/CV.pdf"
+  weight = 70
+
 
 # Link to a PDF of your resume/CV from the menu.
 # To enable, copy your resume/CV to `static/media/cv.pdf` and uncomment the lines below.
