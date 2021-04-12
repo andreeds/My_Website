@@ -29,3 +29,7 @@ comments: false  # Show comments?
 ## Fall
 <!-- * [CS310 Discrete Computational Structures](../cs310) -->
 * **CS310** Discrete Computational Structures
+
+# Others
+
+[**XAI Sample Syllabus**](../../media/XAI.pdf)
